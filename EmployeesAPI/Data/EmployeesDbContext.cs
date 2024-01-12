@@ -7,6 +7,7 @@ namespace EmployeesAPI.Data
     {
         public EmployeesDbContext(DbContextOptions dbContextOptions): base(dbContextOptions)
         {
+
             
         }
 
