@@ -48,7 +48,7 @@ namespace EmployeesAPI.Migrations
                     employeeName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     employeeEmail = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     employeePhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    employeeAge = table.Column<int>(type: "int", nullable: false),
+                    employeeDOB = table.Column<string>(type: "int", nullable: false),
                     DepartmentdepartmentID = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     ProjectprojectID = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },

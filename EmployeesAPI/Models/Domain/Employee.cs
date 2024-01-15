@@ -6,7 +6,7 @@
         public string employeeName { get; set; }
         public string employeeEmail { get; set; }
         public string employeePhoneNumber { get; set; }
-        public int employeeAge { get; set; }
+        public string employeeDOB { get; set; }
 
 
         public Guid DepartmentdepartmentID { get; set; }
